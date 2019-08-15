@@ -4,4 +4,4 @@
 2. 10+ exchanges historical data
 3. realtime stream
 
-![](blob/master/pipeline.jpg?raw=true)
+![](pipeline.jpg?raw=true)
