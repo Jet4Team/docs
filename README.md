@@ -15,6 +15,7 @@ Components:
 - service in Rust 
 - is running on Kubernetes https://aws.amazon.com/eks/
 - should enrich trade event with timestamp, data type, exchange, trading pair
+- raw event from Binance https://github.com/binance-exchange/binance-official-api-docs/blob/master/web-socket-streams.md#partial-book-depth-streams
 
 2. Kafka
 - is running on https://aws.amazon.com/msk/
