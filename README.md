@@ -21,7 +21,7 @@
 - service in Rust 
 - is running on Kubernetes https://aws.amazon.com/eks/
 - should enrich trade event with timestamp, data type, exchange, trading pair
-- raw event from Binance https://github.com/binance-exchange/binance-official-api-docs/blob/master/web-socket-streams.md#partial-book-depth-streams
+- raw event from Binance: https://github.com/binance-exchange/binance-official-api-docs/blob/master/web-socket-streams.md#trade-streams, https://github.com/binance-exchange/binance-official-api-docs/blob/master/web-socket-streams.md#diff-depth-stream
 
 2. Kafka
 - is running on https://aws.amazon.com/msk/
@@ -38,6 +38,7 @@
 - implements stateful logic where snapshot is merged with delta event
 - writes result message into a separate Kafka topic
 - retention policy?
+- sample data format for l2 data https://www.kaiko.com/collections/order-books
 
 4. Kafka to S3
 - Spark job in python
