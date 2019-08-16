@@ -6,8 +6,14 @@
 
 ![](pipeline.jpg?raw=true)
 
+## Competitors:
+* https://coinmetrics.io/
+* https://www.kaiko.com/
+* https://bitdataset.com/
+* https://messari.io/
 
-Components:
+
+## Components:
 
 1. Ingestor
 - establish a connection to exchanges via websocket or FIX protocol
