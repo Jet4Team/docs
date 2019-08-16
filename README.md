@@ -44,7 +44,7 @@ Components:
 5. S3
 - partitioned and parsed raw trading data
 - by Date, Data Type, Trading pair, Exchange
-- what will be the main dimensions for requested data? All pairs and particular pairs for an interval? OR All exchanges for - - certain pairs for an interval?
+- what will be the main dimensions for requested data? All pairs and particular pairs for an interval? OR All exchanges for certain pairs for an interval?
 - some partionaly public directory for download ready data. Dimensions can be cached in order to not prepare similar package of data several times
 - need to measure volume of data
 
