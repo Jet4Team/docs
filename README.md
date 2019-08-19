@@ -57,9 +57,8 @@
 - need to measure volume of data
 
 6. Client API service
-- service in Rust to get requests from client
+- aws lambda service to get requests from client
 - triggers a Spark job which collect required data
-- running on Kubernetes  https://aws.amazon.com/eks/
 - what will be the main dimensions for requested data?
 
 7. S3 to download ready data on S3
